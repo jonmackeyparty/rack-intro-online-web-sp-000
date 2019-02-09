@@ -2,7 +2,7 @@ class Application
 
   def call(env)
     resp = Rack::Response.new
-    resp.write "Hands off my web page!"
+    resp.write "Hello, my name is"
     resp.finish
   end
 
